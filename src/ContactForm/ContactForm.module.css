@@ -1,14 +1,23 @@
+.inputTitle {
+  padding-right: 5px;
+  margin-left: 20px;
+}
+
 .input {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  height: 20px;
+  margin-left: 10px;
 }
-.lable {
-  font-weight: 700;
-  font-size: 20px;
+
+.input:hover,
+.input:focus {
+  border: 3px solid;
 }
-.form {
-  max-width: 250px;
-  padding: 10px;
-  border: 2px solid black;
+
+.btn {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 3px;
+  color: black;
+  margin-left: 10px;
 }

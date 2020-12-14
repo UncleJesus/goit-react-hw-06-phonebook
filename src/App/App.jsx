@@ -2,7 +2,7 @@ import React from "react";
 import Contacts from "../Contacts/Contacts";
 import ContactForm from "../ContactForm/ContactForm";
 import Filter from "../FilterContacts/FilterContacts";
-// import Style from "./App.module.css";
+import style from "./App.module.css";
 
 const App = function () {
   return (
