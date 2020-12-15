@@ -4,5 +4,5 @@ const FILTER = "contact/filter";
 export default {
   ADD,
   DELETE,
-  FILTER
-}
+  FILTER,
+};

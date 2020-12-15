@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 // import {CSSTransition} from 'react-transition-group';
 
-import style from './Notification.module.css';
-
-
+import style from "./Notification.module.css";
 
 const Notification = ({ name }) => (
   // <CSSTransition in={true} appear timeout={250} classNames={style} unmountOnExit>
@@ -12,6 +10,5 @@ const Notification = ({ name }) => (
   </div>
   // </CSSTransition>
 );
-
 
 export default Notification;
