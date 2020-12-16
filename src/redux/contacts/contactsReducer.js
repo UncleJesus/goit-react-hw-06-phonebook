@@ -13,7 +13,7 @@ const toAddContact = (state, action) => {
   return [...state, action.payload.contact];
 };
 
-const toFilterContact = (state, action) =>
+const toDeleteContact = (state, action) =>
   state.filter((contact) => contact.id !== action.payload);
 
 const items = createReducer([], {
@@ -22,7 +22,7 @@ const items = createReducer([], {
       ? JSON.parse(localStorage.getItem("contacts"))
       : state,
   [contactsActions.addContacts]: toAddContact,
-  [contactsActions.handleDelete]: toFilterContact,
+  [contactsActions.handleDelete]: toDeleteContact,
 });
 
 const filter = createReducer("", {
